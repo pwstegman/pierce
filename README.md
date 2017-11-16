@@ -8,7 +8,7 @@ npm install pierce
 
 ## Getting Started
 
-I'll be compiling a lot of my commonly used machine learning, signal processing, and statistics JavaScript modules here for easy reference
+I'll be compiling a lot of my commonly used machine learning, signal processing, and statistics JavaScript modules here for easy reference.
 
 ```javascript
 var pierce = require('pierce');
@@ -22,7 +22,7 @@ var a = [
 ];
 
 console.log(stat.cov(a)); // [ [ 2, -3 ], [ -3, 4.5 ] ] (Covariance matrix)
-console.log(stat.mean(a)); // [ 2, 3.5 ] (Mean of columns)
+console.log(stat.mean(a)); // [ 2, 3.5 ] (Mean of each column)
 
 // Machine learning
 var LDA = pierce.lda;
