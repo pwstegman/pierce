@@ -1,12 +1,16 @@
 {
 	"name": "pierce",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "Machine learning, signal processing, and statistics",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "Pierce Stegman <pwstegman@gmail.com> (https://github.com/pwstegman)",
-	"license": "UNLICENSED",
-	"private": true
+	"license": "MIT",
+	"dependencies": {
+		"pw-csp": "^1.0.0",
+		"pw-lda": "^1.0.0",
+		"pw-stat": "^1.0.0"
+	}
 }
