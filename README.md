@@ -65,3 +65,11 @@ var csp = new CSP(a, b);
 console.log(csp.project(a, 2)); // [ [ 1.414, 0 ], [ -1.414, 0 ] ]
 console.log(csp.project(b, 2)); // [ [ 0, -1.414 ], [ 0, 1.414 ] ]
 ```
+
+## Documentation
+
+Each method is published as its own npm module. This allows for installation of individual methods on an as-needed basis. The documentation for each module can be found below.
+
+* Statistics [`pierce.stat`](http://pwstegman.me/pw-stat/)
+* Linear discriminant analysis [`pierce.lda`](http://pwstegman.me/pw-lda/)
+* Common spatial pattern [`pierce.csp`](http://pwstegman.me/pw-csp/)
